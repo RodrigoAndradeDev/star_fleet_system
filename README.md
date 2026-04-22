@@ -52,11 +52,11 @@ Este projeto foi desenhado para ser uma vitrine técnica de boas práticas de En
 Cada nave foi programada com regras de negócio únicas para suas missões:
 
 1. **Sonda de Reconhecimento:** * *Objetivo:* Mapeamento visual.
-   * *Mecânica:* Gasta um valor fixo e leve de energia (10%) para operar suas lentes. Seu atributo exclusivo permite que o usuário redefina a `distanciaAlcancada` do alvo.
+   * *Mecânica:* Gasta um valor fixo e leve de energia (10) para operar suas lentes. Seu atributo exclusivo permite que o usuário redefina a `distanciaAlcancada` do alvo.
 2. **Nave de Exploração:** * *Objetivo:* Coleta de amostras biológicas e geológicas.
-   * *Mecânica:* Exige motores mais potentes, gastando 20% de energia por viagem. Possui o atributo `planetaDestino`, que pode ser redirecionado através da manutenção.
+   * *Mecânica:* Exige motores mais potentes, gastando 20 de energia por viagem. Possui o atributo `planetaDestino`, que pode ser redirecionado através da manutenção.
 3. **Nave de Combate:** * *Objetivo:* Defesa ativa do setor estelar.
-   * *Mecânica Avançada:* Possui validação dupla. Para executar uma missão, o sistema verifica a energia (gasta pesados 30%) E verifica se há munição no atributo exclusivo `quantidadeMisseis`. Se um dos dois faltar, a missão é travada por segurança.
+   * *Mecânica Avançada:* Possui validação dupla. Para executar uma missão, o sistema verifica a energia (gasta pesados 30) E verifica se há munição no atributo exclusivo `quantidadeMisseis`. Se um dos dois faltar, a missão é travada por segurança.
 
 ---
 
@@ -68,4 +68,4 @@ O projeto possui uma arquitetura escalável pronta para receber futuras atualiza
 - [ ] Criar eventos aleatórios em tempo de execução (utilizando a classe `Random` do Java), como falhas de comunicação ou encontros com tempestades solares.
 
 ---
-*Projeto desenvolvido por [Insira seu Nome Aqui] como conclusão do módulo avançado de Programação Orientada a Objetos em Java.*
+*Projeto desenvolvido por Rodrigo Andrade como conclusão do módulo avançado de Programação Orientada a Objetos em Java.
